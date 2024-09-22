@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgressusTech - Software House</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <header class="bg-info text-white text-center p-4">
+        <h1>ProgressusTech</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao1">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao2">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao3">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container my-4">
+        <div id="secao1" class="mb-4">
+            <h2>Serviços</h2>
+            <p>Na ProgressusTech, oferecemos soluções personalizadas em desenvolvimento de software, incluindo aplicativos web e mobile, consultoria em tecnologia e muito mais.</p>
+        </div>
+
+        <div id="secao2" class="mb-4">
+            <h2>Sobre Nós</h2>
+            <p>A ProgressusTech é uma software house dedicada a entregar projetos de alta qualidade, com uma equipe de especialistas prontos para transformar suas ideias em realidade.</p>
+        </div>
+
+        <div id="secao3" class="mb-4">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para discutir seu projeto! Estamos prontos para ajudar você a alcançar seus objetivos tecnológicos.</p>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; <span id="ano"></span> ProgressusTech. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
